@@ -1,0 +1,28 @@
+{
+  "name": "code_runner_web",
+  "homepage": "https://github.com/gangtao/code_runner_web",
+  "authors": [
+    "Gang Tao <gang.tao@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "code runner"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "codemirror": "^5.22.2",
+    "bootstrap": "^3.3.7",
+    "x-editable": "^1.5.1",
+    "json2": "*",
+    "js-beautify": "*"
+  }
+}

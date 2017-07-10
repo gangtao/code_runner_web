@@ -1,0 +1,14 @@
+body {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  background-color: #1d1d1b;
+}
+
+.runner_result {
+  font-size: 20px;
+  color: #fff;
+  background-color: #1d1d1b;
+  word-wrap: break-word;
+  border: 0px;
+}
