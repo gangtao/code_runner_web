@@ -46,9 +46,9 @@ $(function() {
   });
 
   $("body").keydown(function(event) {
-    if (event.ctrlKey && event.keyCode == 13) {
+    if ( ( event.altKey || event.metaKey ) && event.keyCode == 13) {
       // Ctrl-Enter pressed
-      console.log("contrl+entrt to run the code!");
+      console.log("alt+enter to run the code!");
       run_code();
     }
   });
